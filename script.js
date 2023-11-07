@@ -45,6 +45,7 @@ function populateUI() {
     movieSelect.selectedIndex = selectedMovieIndex;
   }
 }
+
 //Film seçildiğinde
 movieSelect.addEventListener("change", (e) => {
   ticketPrice = +e.target.value;
